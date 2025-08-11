@@ -20,7 +20,7 @@ A Python package for learning optimal hedges through a deep feed forward neural 
 
 ### INSTALLATION
 1. Clone the repository:<br>
-       git clone https://github.com/hb84ffm/deep_call_hedger.git<br>
+       git clone https://github.com/hb84ffm/deep-hedging.git<br>
        cd deep_call_hedger<br>
 
 2. Create & activate your virtual environment:<br>
