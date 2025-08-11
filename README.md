@@ -40,22 +40,17 @@ A Python package for learning optimal hedges through a deep feed forward neural 
        python main_prediction.py<br>
    -> Uses the trained model to run simulations & generate plots.
 
-### PROJECT STRUCTURE
+### PACKAGE STRUCTURE
 
 <pre>deep_call_hedger/
 ├─── __init__.py
-├─── .gitignore                     
 ├─── main_prediction.py             # Orchestrates the prediction
 ├─── main_training.py               # Orchestrates the training
-├─── README.md                      # Overview on the deep_call_hedger package
-├─── requirements.txt               # Information on to be installed packages
 ├─── dh_model/
      ├─── __init__.py
      ├─── dh_model.py               # Designs the model (computational graph) by Keras functional API
 ├─── models/                        
      ├─── deep_hedging_64.keras     # Pretrained deep_hedging_64.keras model trained across 64 timesteps
-├─── examples/
-     ├─── example.ipynb             # Jupyter notebook to describe to user the installation/setup
 ├── options/
      ├─── __init__.py
      ├─── bs.py                     # Black Scholes calculator for European calls
@@ -71,29 +66,6 @@ A Python package for learning optimal hedges through a deep feed forward neural 
 
 ### EXAMPLE WORKFLOW
 See provided Jupyter notebook **example.ipynb** for explanation.
-
-### LICENSE
-MIT License
-
-Copyright (c) 2025 hb84ffm
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 ### CREDITS
 Josef Teichmann's [implementation](https://gist.github.com/jteichma/4d9c0079dbf4e9c3cdff3fd1befabd23)
