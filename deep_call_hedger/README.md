@@ -23,17 +23,17 @@ A Python package for learning optimal hedges through a deep feed forward neural 
        git clone https://github.com/yourusername/deep_call_hedger.git
        cd deep_call_hedger
 
-2. Create & activate your virtual environment:
-       python3 -m venv venv
-       source venv/bin/activate      # On Mac/Linux
+2. Create & activate your virtual environment:<br>
+       python3 -m venv venv<br>
+       source venv/bin/activate      # On Mac/Linux<br>
        venv\Scripts\activate         # On Windows
 
-3. Install dependencies:
+3. Install dependencies:<br>
        pip install -r requirements.txt
 
 ### USAGE
-1. Train the deep hedging model (or use the pretrained model deep_hedging_64.keras):
-       python main_training.py
+1. Train the deep hedging model (or use the pretrained model deep_hedging_64.keras):<br>
+       python main_training.py<br>
    -> Saves a trained ".keras" model to the models/ folder.
 
 2. Run prediction & analysis:<br>
