@@ -11,12 +11,12 @@ A Python package for learning optimal hedges through a deep feed forward neural 
 
 ### REQUIREMENTS
 - Python 3.11+ (tested with 3.11.9)
-- Required dependencies (see requirements.txt for details):
-    numpy==2.1.3
-    tensorflow==2.19.0
-    scipy==1.16.0
-    matplotlib==3.10.5
-    seaborn==0.13.2
+- Required dependencies (see requirements.txt for details):<br>
+    numpy==2.1.3<br>
+    tensorflow==2.19.0<br>
+    scipy==1.16.0<br>
+    matplotlib==3.10.5<br>
+    seaborn==0.13.2<br>
 
 ### INSTALLATION
 1. Clone the repository:
@@ -36,8 +36,8 @@ A Python package for learning optimal hedges through a deep feed forward neural 
        python main_training.py
    -> Saves a trained ".keras" model to the models/ folder.
 
-2. Run prediction & analysis:
-       python main_prediction.py
+2. Run prediction & analysis:<br>
+       python main_prediction.py<br>
    -> Uses the trained model to run simulations & generate plots.
 
 ### PROJECT STRUCTURE
@@ -75,7 +75,7 @@ See provided Jupyter notebook example.ipynb for explanation.
 ### LICENSE
 MIT License
 
-Copyright (c) 2025 Your Name or Your Organization
+Copyright (c) 2025 hb84ffm
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -99,4 +99,4 @@ SOFTWARE.
 Josef Teichmann's [implementation](https://gist.github.com/jteichma/4d9c0079dbf4e9c3cdff3fd1befabd23)
 
 ### AUTHOR
-For questions or feedback reach out via: [GitHub](https://github.com/hb84ffm).
+For questions or feedback reach out to me via: [GitHub](https://github.com/hb84ffm).
