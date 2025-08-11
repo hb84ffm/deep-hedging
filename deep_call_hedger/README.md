@@ -19,9 +19,9 @@ A Python package for learning optimal hedges through a deep feed forward neural 
     seaborn==0.13.2<br>
 
 ### INSTALLATION
-1. Clone the repository:
-       git clone https://github.com/yourusername/deep_call_hedger.git
-       cd deep_call_hedger
+1. Clone the repository:<br>
+       git clone https://github.com/hb84ffm/deep_call_hedger.git<br>
+       cd deep_call_hedger<br>
 
 2. Create & activate your virtual environment:<br>
        python3 -m venv venv<br>
