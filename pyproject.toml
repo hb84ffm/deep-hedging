@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deep_call_hedger"
+version = "0.1.0"
+description = "Deep hedging engine package"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+authors = [
+  { name = "hb84ffm" }
+]
+requires-python = ">=3.7"
+dependencies = [
+  "tensorflow>=2.0.0",
+  "numpy>=1.18.0",
+  "scipy>=1.4.0",
+  "matplotlib>=3.0.0",
+  "seaborn>=0.10.0"
+]
+
+keywords = ["deep-hedging", "machine-learning", "tensorflow"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/hb84ffm/deep-hedging"
