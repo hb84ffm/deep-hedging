@@ -1,6 +1,6 @@
 # deep_call_hedger
 
-A Python package for learning optimal hedges through a deep feed forward neural network (DFNN), in order to minimize terminal loss for a European call option. 
+A Python package for learning optimal hedges through a deep feed forward neural network (DFNN), in order to minimize terminal loss when hedging a European call option. 
 
 ### FEATURES
 - Simulates stock prices following a geometric Brownian motion
@@ -70,7 +70,7 @@ A Python package for learning optimal hedges through a deep feed forward neural 
      ├─── training.py               # Compiles the model & starts the training</pre>
 
 ### EXAMPLE WORKFLOW
-See provided Jupyter notebook example.ipynb for explanation.
+See provided Jupyter notebook **example.ipynb** for explanation.
 
 ### LICENSE
 MIT License
