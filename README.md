@@ -65,7 +65,7 @@ A Python package which implements the deep hedging algorithm. Target is learning
      ├─── training.py               # Compiles the model & starts the training</pre>
 
 ### EXAMPLE WORKFLOW
-See provided Jupyter notebook [example]([https://gist.github.com/jteichma/4d9c0079dbf4e9c3cdff3fd1befabd23](https://github.com/hb84ffm/deep-hedging/blob/main/example.ipynb)) for explanation.
+See provided Jupyter notebook [example](https://github.com/hb84ffm/deep-hedging/blob/main/example.ipynb)) for explanation.
 
 ### CREDITS
 Josef Teichmann's [implementation](https://gist.github.com/jteichma/4d9c0079dbf4e9c3cdff3fd1befabd23)
